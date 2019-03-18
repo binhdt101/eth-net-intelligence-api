@@ -11,9 +11,9 @@
     "env":
     {
       "NODE_ENV"        : "lab",
-      "RPC_HOST"        : "localhost",
-      "RPC_PORT"        : "8506",
-      "LISTENING_PORT"  : "30306",
+      "RPC_HOST"        : "172.101.0.18",
+      "RPC_PORT"        : "8502",
+      "LISTENING_PORT"  : "30302",
       "INSTANCE_NAME"   : "node2",
       "CONTACT_DETAILS" : "",
       "WS_SERVER"       : "ws://localhost:3000",

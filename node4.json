@@ -1,6 +1,6 @@
 [
   {
-    "name"              : "node1",
+    "name"              : "node4",
     "script"            : "app.js",
     "log_date_format"   : "YYYY-MM-DD HH:mm Z",
     "merge_logs"        : false,
@@ -11,10 +11,10 @@
     "env":
     {
       "NODE_ENV"        : "lab",
-      "RPC_HOST"        : "172.101.0.17",
-      "RPC_PORT"        : "8501",
-      "LISTENING_PORT"  : "30301",
-      "INSTANCE_NAME"   : "node1",
+      "RPC_HOST"        : "172.101.0.51",
+      "RPC_PORT"        : "8504",
+      "LISTENING_PORT"  : "30304",
+      "INSTANCE_NAME"   : "node4",
       "CONTACT_DETAILS" : "",
       "WS_SERVER"       : "ws://localhost:3000",
       "WS_SECRET"       : "123456",
