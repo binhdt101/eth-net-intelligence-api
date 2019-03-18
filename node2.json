@@ -16,7 +16,7 @@
       "LISTENING_PORT"  : "30302",
       "INSTANCE_NAME"   : "node2",
       "CONTACT_DETAILS" : "",
-      "WS_SERVER"       : "ws://localhost:3000",
+      "WS_SERVER"       : "ws://localhost:9001",
       "WS_SECRET"       : "123456",
       "VERBOSITY"       : 2
     }
