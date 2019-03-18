@@ -1,0 +1,24 @@
+[
+  {
+    "name"              : "node2",
+    "script"            : "app.js",
+    "log_date_format"   : "YYYY-MM-DD HH:mm Z",
+    "merge_logs"        : false,
+    "watch"             : false,
+    "max_restarts"      : 10,
+    "exec_interpreter"  : "node",
+    "exec_mode"         : "fork_mode",
+    "env":
+    {
+      "NODE_ENV"        : "lab",
+      "RPC_HOST"        : "localhost",
+      "RPC_PORT"        : "8506",
+      "LISTENING_PORT"  : "30306",
+      "INSTANCE_NAME"   : "node2",
+      "CONTACT_DETAILS" : "",
+      "WS_SERVER"       : "ws://localhost:3000",
+      "WS_SECRET"       : "123456",
+      "VERBOSITY"       : 2
+    }
+  }
+]
